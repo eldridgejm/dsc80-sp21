@@ -1,0 +1,135 @@
+body {
+    padding-top: 5em;
+    font-size: 12pt;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+@media (max-width: 980px) {
+    body {
+        padding-top: 2em;
+    }
+}
+
+/* button_bar */
+/* -------------------------------------------------------------------------------- */
+
+div.button-bar {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* listing */
+/* -------------------------------------------------------------------------------- */
+div.listing {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* schedule */
+/* -------------------------------------------------------------------------------- */
+
+div.schedule {
+    margin-top: 2em;
+}
+
+div.schedule-week {
+    margin-bottom: 5em;
+}
+
+div.schedule-week-future {
+}
+
+div.schedule-week-title {
+    margin-bottom: 3em;
+}
+
+h1.schedule-week-title-number {
+    font-weight: bold;
+    font-size: 32pt;
+}
+
+h2.schedule-week-title-topic {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+h3.schedule-week-component-title {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+div.schedule-lecture {
+    margin-bottom: 3em;
+}
+
+div.schedule-lecture.last {
+    margin-bottom: 0em;
+}
+
+i.schedule-icon {
+    margin-right: .7em;
+}
+
+ol.schedule-lecture-parts {
+    counter-reset: part-counter;
+    list-style: none;
+}
+
+ol.schedule-lecture-parts li {
+    counter-increment: part-counter;
+    font-size: 12pt;
+    margin-left: -.1em;
+    margin-bottom: .4em;
+    position: relative;
+}
+
+ol.schedule-lecture-parts li:before {
+    position: absolute;
+    left: -2em;
+    content: counter(part-counter, decimal-leading-zero) "  ";
+    opacity: 0.2;
+}
+
+ul li.schedule-resource {
+    font-size: 12pt;
+    margin-left: -2.5em;
+    margin-bottom: .4em;
+    list-style-type: none;
+}
+
+i.schedule-resource-icon {
+    margin-right: .6em;
+}
+
+div.schedule-announcement {
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+div.schedule-past-or-future {
+    font-size: 16pt;
+    margin-bottom: 4em;
+}
+
+.schedule-separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+.schedule-separator::before, .schedule-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-separator::before {
+    margin-right: .25em;
+}
+
+.schedule-separator::after {
+    margin-left: .25em;
+}

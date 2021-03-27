@@ -1,0 +1,1133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Do not cache this page -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/style.css">
+
+        <!-- Optional JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Emoji -->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+        <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Arvo|Bitter|Fira+Sans|Noto+Serif+JP|Roboto+Slab&display=swap" rel="stylesheet">
+
+    <title>DSC 80 - The Practice and Application of Data Science</title>
+    </head>
+    <body class="text-md-left">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    
+<div class="row">
+    <div class="col-md-12 p-2">
+        <img class="d-block mx-auto mx-md-0" src="static/logo.svg">
+    </div>
+</div>
+
+<div style="margin-top: 3em; margin-bottom: 3em; padding: 0em">
+<div class="button-bar list-group list-group-horizontal-md h-30" style="text-align: center">
+
+    <a href="./syllabus.html" class="list-group-item list-group-item-action">
+    <i class="em em-scroll" aria-role="presentation"></i>
+    &nbsp;
+    Syllabus
+    <br>
+    <small class="text-muted">
+        FAQ, etc.
+    </small>
+  </a>
+
+    <a href="./office_hours.html" class="list-group-item list-group-item-action">
+    <i class="em em-male-teacher" aria-role="presentation"></i>
+    &nbsp;
+    Office Hours
+    <br>
+    <small class="text-muted">
+        Calendar
+    </small>
+  </a>
+
+    <a href="https://campuswire.com/c/GBD5E4622" class="list-group-item list-group-item-action">
+    <i class="em em-left_speech_bubble" aria-role="presentation"></i>
+    &nbsp;
+    Campuswire
+    <br>
+    <small class="text-muted">
+        Message Board
+    </small>
+  </a>
+
+    <a href="https://www.gradescope.com/courses/214157" class="list-group-item list-group-item-action">
+    <i class="em em-100" aria-role="presentation"></i>
+    &nbsp;
+    Gradescope
+    <br>
+    <small class="text-muted">
+        Gradebook
+    </small>
+  </a>
+
+
+</div>
+<div class="button-bar list-group list-group-horizontal-md h-30" style="text-align: center">
+
+
+    <a href="https://afraenkel.github.io/practical-data-science/introduction" class="list-group-item list-group-item-action">
+    <i class="em em-book" aria-role="presentation"></i>
+    &nbsp;
+    Course Notes
+    <br>
+    <small class="text-muted">
+
+    </small>
+  </a>
+
+
+</div>
+</div>
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    This Week
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Introduction</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+                <div class="alert alert-primary schedule-announcement">
+                    <p><h3 id="welcome-to-dsc-80">Welcome to DSC 80!</h3>
+<p>Here's how to get started:</p>
+<ul>
+<li>read the <a href="./syllabus.html">syllabus</a></li>
+<li>join our 
+  <a href="https://campuswire.com/c/GBD5E4622">campuswire</a>
+  and 
+  <a href="https://www.gradescope.com/courses/214157">gradescope</a> 
+  with the email invitations you received earlier this week</li>
+<li>watch the intro lecture (posted below)</li>
+</ul>
+<p>See you in lecture.</p></p>
+                </div>
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 1 &mdash; Introduction
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-book schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="https://afraenkel.github.io/practical-data-science/01/introduction.html">Chapter 1 - Introduction to Data Science</a>
+
+    </li>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 1
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            Friday April 2 at 13:00 PM
+via <a href=https://google.com>Zoom</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>Assignment is Extra Credit</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-danger">
+
+                    Due
+
+                Saturday, Apr 03 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Lab 1
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-danger">
+
+                    Due
+
+                Tuesday, Apr 06 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Project 1 Checkpoint
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-danger">
+
+                    Due
+
+                Thursday, Apr 08 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 2
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Messy Data and Testing</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Project 1
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-danger">
+
+                    Due
+
+                Thursday, Apr 15 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 3
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Data Granularity</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 4
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Permutation Tests</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 5
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Missingness</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 6
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">HTTP and HTML</h2>
+
+
+
+                    <div class="badge badge-pill badge-danger">
+                        Midterm on Thursday, May 06
+                    </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 7
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Regex and NLP</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 8
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Prediction and sklearn</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 9
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Bias/Variance</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 10
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Conclusion</h2>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 11
+
+
+
+
+                    <i class="em-svg em-checkered_flag" aria-role="presentation" ></i>
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Exam Week</h2>
+
+
+
+
+
+                    <div class="badge badge-pill badge-danger">
+                        Final Exam on Tuesday, Jun 08
+                    </div>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
