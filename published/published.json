@@ -85,21 +85,7 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {
-                "01-introduction": {
-                    "metadata": {
-                        "number": 1,
-                        "date": "2021-03-30",
-                        "topic": "Introduction",
-                        "reading": {
-                            "title": "Chapter 1 - Introduction to Data Science",
-                            "url": "https://afraenkel.github.io/practical-data-science/01/introduction.html"
-                        },
-                        "videos": []
-                    },
-                    "artifacts": {}
-                }
-            }
+            "publications": {}
         },
         "labs": {
             "schema": {
