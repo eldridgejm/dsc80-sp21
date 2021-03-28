@@ -1,46 +1,5 @@
 {
     "collections": {
-        "projects": {
-            "schema": {
-                "required_artifacts": [],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "released": {
-                        "type": "smartdatetime"
-                    },
-                    "due": {
-                        "type": "smartdatetime"
-                    },
-                    "checkpoint_released": {
-                        "type": "smartdatetime"
-                    },
-                    "checkpoint_due": {
-                        "type": "smartdatetime"
-                    },
-                    "topic": {
-                        "type": "string"
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01": {
-                    "metadata": {
-                        "number": 1,
-                        "checkpoint_released": "2021-04-01 23:59:00",
-                        "checkpoint_due": "2021-04-08 23:59:00",
-                        "released": "2021-04-08 23:59:00",
-                        "due": "2021-04-15 23:59:00",
-                        "topic": "Introduction"
-                    },
-                    "artifacts": {}
-                }
-            }
-        },
         "lectures": {
             "schema": {
                 "required_artifacts": [],
@@ -87,6 +46,40 @@
             },
             "publications": {}
         },
+        "discussions": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "datetime": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "recording": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "datetime": "2021-04-02 13:00:00",
+                        "due": "2021-04-03 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
         "labs": {
             "schema": {
                 "required_artifacts": [],
@@ -120,7 +113,7 @@
                 }
             }
         },
-        "discussions": {
+        "projects": {
             "schema": {
                 "required_artifacts": [],
                 "optional_artifacts": [],
@@ -128,15 +121,20 @@
                     "number": {
                         "type": "integer"
                     },
-                    "datetime": {
+                    "released": {
                         "type": "smartdatetime"
                     },
                     "due": {
                         "type": "smartdatetime"
                     },
-                    "recording": {
-                        "type": "string",
-                        "nullable": true
+                    "checkpoint_released": {
+                        "type": "smartdatetime"
+                    },
+                    "checkpoint_due": {
+                        "type": "smartdatetime"
+                    },
+                    "topic": {
+                        "type": "string"
                     }
                 },
                 "allow_unspecified_artifacts": false,
@@ -146,9 +144,11 @@
                 "01": {
                     "metadata": {
                         "number": 1,
-                        "datetime": "2021-04-02 13:00:00",
-                        "due": "2021-04-03 23:59:00",
-                        "recording": null
+                        "checkpoint_released": "2021-04-01 23:59:00",
+                        "checkpoint_due": "2021-04-08 23:59:00",
+                        "released": "2021-04-08 23:59:00",
+                        "due": "2021-04-15 23:59:00",
+                        "topic": "Introduction"
                     },
                     "artifacts": {}
                 }
