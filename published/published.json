@@ -136,7 +136,21 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {}
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "2021-03-30 23:59:00",
+                        "due": "2021-04-06 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/01/export.zip"
+                        }
+                    }
+                }
+            }
         },
         "projects": {
             "schema": {
