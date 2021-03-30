@@ -54,7 +54,20 @@
                             "title": "Chapter 1 - Introduction to Data Science",
                             "url": "https://afraenkel.github.io/practical-data-science/01/introduction.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Introduction",
+                                "url": "https://youtu.be/vsF-8IFmu9I"
+                            },
+                            {
+                                "title": "Course Structure",
+                                "url": "https://youtu.be/MvBXkM8D6Mw"
+                            },
+                            {
+                                "title": "The Data Science Lifecycle",
+                                "url": "https://youtu.be/x9vBpH7ft4s"
+                            }
+                        ]
                     },
                     "artifacts": {}
                 }
@@ -96,7 +109,9 @@
         },
         "labs": {
             "schema": {
-                "required_artifacts": [],
+                "required_artifacts": [
+                    "lab.zip"
+                ],
                 "optional_artifacts": [],
                 "metadata_schema": {
                     "number": {
@@ -123,7 +138,11 @@
                         "due": "2021-04-06 23:59:00",
                         "topic": "Introduction"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "lab.zip": {
+                            "path": "labs/01/lab.zip"
+                        }
+                    }
                 }
             }
         },
