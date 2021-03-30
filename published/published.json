@@ -2,7 +2,9 @@
     "collections": {
         "lectures": {
             "schema": {
-                "required_artifacts": [],
+                "required_artifacts": [
+                    "export.zip"
+                ],
                 "optional_artifacts": [],
                 "metadata_schema": {
                     "number": {
@@ -69,78 +71,9 @@
                             }
                         ]
                     },
-                    "artifacts": {}
-                }
-            }
-        },
-        "discussions": {
-            "schema": {
-                "required_artifacts": [],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "datetime": {
-                        "type": "smartdatetime"
-                    },
-                    "due": {
-                        "type": "smartdatetime"
-                    },
-                    "recording": {
-                        "type": "string",
-                        "nullable": true
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01": {
-                    "metadata": {
-                        "number": 1,
-                        "datetime": "2021-04-02 13:00:00",
-                        "due": "2021-04-03 23:59:00",
-                        "recording": null
-                    },
-                    "artifacts": {}
-                }
-            }
-        },
-        "labs": {
-            "schema": {
-                "required_artifacts": [
-                    "lab.zip"
-                ],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "released": {
-                        "type": "smartdatetime"
-                    },
-                    "due": {
-                        "type": "smartdatetime"
-                    },
-                    "topic": {
-                        "type": "string"
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01": {
-                    "metadata": {
-                        "number": 1,
-                        "released": "2021-03-30 23:59:00",
-                        "due": "2021-04-06 23:59:00",
-                        "topic": "Introduction"
-                    },
                     "artifacts": {
-                        "lab.zip": {
-                            "path": "labs/01/lab.zip"
+                        "export.zip": {
+                            "path": "lectures/01-introduction/export.zip"
                         }
                     }
                 }
@@ -184,6 +117,79 @@
                         "topic": "Introduction"
                     },
                     "artifacts": {}
+                }
+            }
+        },
+        "discussions": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "datetime": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "recording": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "datetime": "2021-04-02 13:00:00",
+                        "due": "2021-04-03 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "labs": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "topic": {
+                        "type": "string"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "2021-03-30 23:59:00",
+                        "due": "2021-04-06 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/01/export.zip"
+                        }
+                    }
                 }
             }
         },
