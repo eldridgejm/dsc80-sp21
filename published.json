@@ -1,0 +1,207 @@
+{
+    "collections": {
+        "lectures": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "date": {
+                        "type": "smartdate"
+                    },
+                    "topic": {
+                        "type": "string"
+                    },
+                    "reading": {
+                        "type": "dict",
+                        "nullable": true,
+                        "schema": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "videos": {
+                        "type": "list",
+                        "schema": {
+                            "type": "dict",
+                            "schema": {
+                                "title": {
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-introduction": {
+                    "metadata": {
+                        "number": 1,
+                        "date": "2021-03-30",
+                        "topic": "Introduction",
+                        "reading": {
+                            "title": "Chapter 1 - Introduction to Data Science",
+                            "url": "https://afraenkel.github.io/practical-data-science/01/introduction.html"
+                        },
+                        "videos": [
+                            {
+                                "title": "Introduction",
+                                "url": "https://youtu.be/vsF-8IFmu9I"
+                            },
+                            {
+                                "title": "Course Structure",
+                                "url": "https://youtu.be/MvBXkM8D6Mw"
+                            },
+                            {
+                                "title": "The Data Science Lifecycle",
+                                "url": "https://youtu.be/x9vBpH7ft4s"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/01-introduction/export.zip"
+                        }
+                    }
+                }
+            }
+        },
+        "projects": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "checkpoint_released": {
+                        "type": "smartdatetime"
+                    },
+                    "checkpoint_due": {
+                        "type": "smartdatetime"
+                    },
+                    "topic": {
+                        "type": "string"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "checkpoint_released": "2021-04-01 23:59:00",
+                        "checkpoint_due": "2021-04-08 23:59:00",
+                        "released": "2021-04-08 23:59:00",
+                        "due": "2021-04-15 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "discussions": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "datetime": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "recording": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "datetime": "2021-04-02 13:00:00",
+                        "due": "2021-04-03 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "labs": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "topic": {
+                        "type": "string"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "2021-03-30 23:59:00",
+                        "due": "2021-04-06 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/01/export.zip"
+                        }
+                    }
+                }
+            }
+        },
+        "default": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": null,
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": true,
+                "is_ordered": false
+            },
+            "publications": {}
+        }
+    }
+}
