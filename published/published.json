@@ -79,47 +79,6 @@
                 }
             }
         },
-        "projects": {
-            "schema": {
-                "required_artifacts": [],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "released": {
-                        "type": "smartdatetime"
-                    },
-                    "due": {
-                        "type": "smartdatetime"
-                    },
-                    "checkpoint_released": {
-                        "type": "smartdatetime"
-                    },
-                    "checkpoint_due": {
-                        "type": "smartdatetime"
-                    },
-                    "topic": {
-                        "type": "string"
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01": {
-                    "metadata": {
-                        "number": 1,
-                        "checkpoint_released": "2021-04-01 23:59:00",
-                        "checkpoint_due": "2021-04-08 23:59:00",
-                        "released": "2021-04-08 23:59:00",
-                        "due": "2021-04-15 23:59:00",
-                        "topic": "Introduction"
-                    },
-                    "artifacts": {}
-                }
-            }
-        },
         "discussions": {
             "schema": {
                 "required_artifacts": [],
@@ -177,19 +136,46 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
+            "publications": {}
+        },
+        "projects": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "checkpoint_released": {
+                        "type": "smartdatetime"
+                    },
+                    "checkpoint_due": {
+                        "type": "smartdatetime"
+                    },
+                    "topic": {
+                        "type": "string"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
             "publications": {
                 "01": {
                     "metadata": {
                         "number": 1,
-                        "released": "2021-03-30 23:59:00",
-                        "due": "2021-04-06 23:59:00",
+                        "checkpoint_released": "2021-04-01 23:59:00",
+                        "checkpoint_due": "2021-04-08 23:59:00",
+                        "released": "2021-04-08 23:59:00",
+                        "due": "2021-04-15 23:59:00",
                         "topic": "Introduction"
                     },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "labs/01/export.zip"
-                        }
-                    }
+                    "artifacts": {}
                 }
             }
         },
