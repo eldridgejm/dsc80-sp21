@@ -76,6 +76,23 @@
                             "path": "lectures/01-introduction/export.zip"
                         }
                     }
+                },
+                "02-tabular_data": {
+                    "metadata": {
+                        "number": 2,
+                        "date": "2021-04-01",
+                        "topic": "Tabular Data",
+                        "reading": {
+                            "title": "Chapter 2 - The Basics of Tabular Data",
+                            "url": "https://afraenkel.github.io/practical-data-science/02/introduction.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/02-tabular_data/export.zip"
+                        }
+                    }
                 }
             }
         },
