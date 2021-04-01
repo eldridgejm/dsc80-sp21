@@ -171,7 +171,9 @@
         },
         "projects": {
             "schema": {
-                "required_artifacts": [],
+                "required_artifacts": [
+                    "export.zip"
+                ],
                 "optional_artifacts": [],
                 "metadata_schema": {
                     "number": {
@@ -206,7 +208,11 @@
                         "due": "2021-04-15 23:59:00",
                         "topic": "Introduction"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "projects/01/export.zip"
+                        }
+                    }
                 }
             }
         },
