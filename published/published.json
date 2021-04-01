@@ -86,7 +86,20 @@
                             "title": "Chapter 2 - The Basics of Tabular Data",
                             "url": "https://afraenkel.github.io/practical-data-science/02/introduction.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Tabular Data in Pandas",
+                                "url": "https://youtu.be/W-txew6nx8s"
+                            },
+                            {
+                                "title": "Pandas and Numpy",
+                                "url": "https://youtu.be/q2BhOaUdqsI"
+                            },
+                            {
+                                "title": "Useful Pandas Methods",
+                                "url": "https://youtu.be/r1Vc7hk-Zis"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
