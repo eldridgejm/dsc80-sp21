@@ -1,0 +1,9 @@
+metadata:
+    number: 1
+    datetime: {{ course.discussion.datetime_of_first }}
+    due: 1 day after datetime at 23:59:00
+    recording: null
+
+artifacts: {}
+
+ready: true
