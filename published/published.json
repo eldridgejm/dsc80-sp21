@@ -111,7 +111,9 @@
         },
         "discussions": {
             "schema": {
-                "required_artifacts": [],
+                "required_artifacts": [
+                    "export.zip"
+                ],
                 "optional_artifacts": [],
                 "metadata_schema": {
                     "number": {
@@ -139,7 +141,11 @@
                         "due": "2021-04-03 23:59:00",
                         "recording": "https://youtu.be/kFgDgfLMmsc"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/01/export.zip"
+                        }
+                    }
                 }
             }
         },
