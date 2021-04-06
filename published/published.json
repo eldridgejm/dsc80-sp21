@@ -106,6 +106,23 @@
                             "path": "lectures/02-tabular_data/export.zip"
                         }
                     }
+                },
+                "03-messy_data": {
+                    "metadata": {
+                        "number": 3,
+                        "date": "2021-04-06",
+                        "topic": "Messy Data",
+                        "reading": {
+                            "title": "Chapter 4.2 - Cleaning Messy Data",
+                            "url": "https://afraenkel.github.io/practical-data-science/04/cleaning.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/03-messy_data/export.zip"
+                        }
+                    }
                 }
             }
         },
