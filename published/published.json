@@ -140,6 +140,23 @@
                             "path": "lectures/03-messy_data/export.zip"
                         }
                     }
+                },
+                "04-hypothesis_testing": {
+                    "metadata": {
+                        "number": 4,
+                        "date": "2021-04-08",
+                        "topic": "Hypothesis Testing",
+                        "reading": {
+                            "title": "Chapter 4.4 - Hypothesis Testing",
+                            "url": "https://afraenkel.github.io/practical-data-science/04/asking-questions.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/04-hypothesis_testing/export.zip"
+                        }
+                    }
                 }
             }
         },
