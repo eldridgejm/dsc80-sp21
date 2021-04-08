@@ -150,7 +150,20 @@
                             "title": "Chapter 4.4 - Hypothesis Testing",
                             "url": "https://afraenkel.github.io/practical-data-science/04/asking-questions.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Hypothesis Testing and Coin Flips",
+                                "url": "https://youtu.be/-0UomHBzI9I"
+                            },
+                            {
+                                "title": "Jury Panels and the TVD",
+                                "url": "https://youtu.be/PRnxTUYSAWM"
+                            },
+                            {
+                                "title": "P-Values",
+                                "url": "https://youtu.be/Gq4ePL58GKc"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
