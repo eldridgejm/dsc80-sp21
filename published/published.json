@@ -200,7 +200,7 @@
             "publications": {
                 "01": {
                     "metadata": {
-                        "number": 1,
+                        "number": 2,
                         "datetime": "2021-04-02 13:00:00",
                         "due": "2021-04-03 23:59:00",
                         "recording": "https://youtu.be/kFgDgfLMmsc"
@@ -208,6 +208,19 @@
                     "artifacts": {
                         "export.zip": {
                             "path": "discussions/01/export.zip"
+                        }
+                    }
+                },
+                "02": {
+                    "metadata": {
+                        "number": 1,
+                        "datetime": "2021-04-02 13:00:00",
+                        "due": "2021-04-03 23:59:00",
+                        "recording": "https://youtu.be/kFgDgfLMmsc"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/02/export.zip"
                         }
                     }
                 }
