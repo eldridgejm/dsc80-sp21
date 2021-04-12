@@ -170,6 +170,23 @@
                             "path": "lectures/04-hypothesis_testing/export.zip"
                         }
                     }
+                },
+                "05-data_granularity": {
+                    "metadata": {
+                        "number": 5,
+                        "date": "2021-04-13",
+                        "topic": "Data Granularity",
+                        "reading": {
+                            "title": "Chapters 5.1 and 5.2 - Data Granularity",
+                            "url": "https://afraenkel.github.io/practical-data-science/05/grouping.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/05-data_granularity/export.zip"
+                        }
+                    }
                 }
             }
         },
