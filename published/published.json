@@ -180,7 +180,20 @@
                             "title": "Chapters 5.1 and 5.2 - Data Granularity",
                             "url": "https://afraenkel.github.io/practical-data-science/05/grouping.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Data Granularity and groupby",
+                                "url": "https://youtu.be/nGK66i6I9NA"
+                            },
+                            {
+                                "title": "Pivot Tables",
+                                "url": "https://youtu.be/DZU_2e29mMs"
+                            },
+                            {
+                                "title": "Simpson's Paradox",
+                                "url": "https://youtu.be/gW4RUashlDg"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
