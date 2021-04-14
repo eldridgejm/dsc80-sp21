@@ -64,8 +64,6 @@ def clean_apps(df):
     >>> cleaned = clean_apps(df)
     >>> len(cleaned) == len(df)
     True
-    >>> cleaned.Reviews.dtype == int
-    True
     '''
     
     return ...
