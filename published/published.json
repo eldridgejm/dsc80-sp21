@@ -200,6 +200,23 @@
                             "path": "lectures/05-data_granularity/export.zip"
                         }
                     }
+                },
+                "06-combining_data": {
+                    "metadata": {
+                        "number": 6,
+                        "date": "2021-04-15",
+                        "topic": "Combining Data",
+                        "reading": {
+                            "title": "Chapters 5.3 and 5.4 - Data Granularity",
+                            "url": "https://afraenkel.github.io/practical-data-science/05/appending-data.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/06-combining_data/export.zip"
+                        }
+                    }
                 }
             }
         },
