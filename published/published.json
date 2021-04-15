@@ -210,7 +210,28 @@
                             "title": "Chapters 5.3 and 5.4 - Data Granularity",
                             "url": "https://afraenkel.github.io/practical-data-science/05/appending-data.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Concatenating Vertically",
+                                "url": "https://youtu.be/2nTvFwEXJM4"
+                            },
+                            {
+                                "title": "Working with Times",
+                                "url": "https://youtu.be/gxYY66OzH6g"
+                            },
+                            {
+                                "title": "Concatenating Horizontally",
+                                "url": "https://youtu.be/7oW3gJG8rDo"
+                            },
+                            {
+                                "title": "Joining with pd.merge",
+                                "url": "https://youtu.be/8J4DNMOMnRw"
+                            },
+                            {
+                                "title": "Many-to-* Joins, and a Demo",
+                                "url": "https://youtu.be/5Iumi9F1RZk"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
