@@ -149,15 +149,12 @@ def read_survey(dirname):
     return ...
 
 
-def com_stats(df):
+def com_stats():
     """
     com_stats 
-    :param df: a DataFrame containing the combined survey data
     :returns: a hardcoded list of answers to the problems in the notebook
     :Example:
-    >>> dirname = os.path.join('data', 'responses')
-    >>> df = read_survey(dirname)
-    >>> out = com_stats(df)
+    >>> out = com_stats()
     >>> len(out)
     4
     >>> isinstance(out[0], int)
