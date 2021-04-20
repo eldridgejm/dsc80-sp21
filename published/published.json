@@ -238,6 +238,23 @@
                             "path": "lectures/06-combining_data/export.zip"
                         }
                     }
+                },
+                "07-permutation_tests": {
+                    "metadata": {
+                        "number": 7,
+                        "date": "2021-04-20",
+                        "topic": "Permutation Tests",
+                        "reading": {
+                            "title": "Chapter 5.5 - Permutation Tests",
+                            "url": "https://afraenkel.github.io/practical-data-science/05/permutation-tests.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/07-permutation_tests/export.zip"
+                        }
+                    }
                 }
             }
         },
