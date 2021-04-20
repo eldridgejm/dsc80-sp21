@@ -312,7 +312,7 @@
                 "02": {
                     "metadata": {
                         "number": 2,
-                        "datetime": "2021-04-02 13:00:00",
+                        "datetime": "2021-04-09 13:00:00",
                         "due": "2021-04-10 23:59:00",
                         "recording": "https://youtu.be/VqRYzGmqi58"
                     },
@@ -325,7 +325,7 @@
                 "03": {
                     "metadata": {
                         "number": 3,
-                        "datetime": "2021-04-02 13:00:00",
+                        "datetime": "2021-04-16 13:00:00",
                         "due": "2021-04-17 23:59:00",
                         "recording": "https://youtu.be/o1poQng0Cw8"
                     },
