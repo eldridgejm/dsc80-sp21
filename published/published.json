@@ -399,6 +399,19 @@
                             "path": "labs/03/export.zip"
                         }
                     }
+                },
+                "04": {
+                    "metadata": {
+                        "number": 4,
+                        "released": "2021-04-20 23:59:00",
+                        "due": "2021-04-27 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/04/export.zip"
+                        }
+                    }
                 }
             }
         },
