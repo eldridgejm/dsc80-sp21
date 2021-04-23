@@ -378,7 +378,7 @@
                         "number": 4,
                         "datetime": "2021-04-23 13:00:00",
                         "due": "2021-04-24 23:59:00",
-                        "recording": null
+                        "recording": "https://youtu.be/qBr544Y2FwY"
                     },
                     "artifacts": {
                         "export.zip": {
