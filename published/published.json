@@ -313,10 +313,27 @@
                         "date": "2021-04-27",
                         "topic": "Imputation",
                         "reading": {
-                            "title": "Chapters 5.3 and 5.4 - Data Granularity",
-                            "url": "https://afraenkel.github.io/practical-data-science/05/appending-data.html"
+                            "title": "Chapters 6.3, 6.4, 6.5 - Missing Data",
+                            "url": "https://afraenkel.github.io/practical-data-science/06/handling-missing-data.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Introduction to Data Imputation",
+                                "url": "https://youtu.be/-aFNJU7EZsc"
+                            },
+                            {
+                                "title": "What to do with missing data",
+                                "url": "https://youtu.be/ygxh7USX3Ew"
+                            },
+                            {
+                                "title": "Mean imputation",
+                                "url": "https://youtu.be/RkWqRg1jIrU"
+                            },
+                            {
+                                "title": "Probabilistic imputation",
+                                "url": "https://youtu.be/w6l6c2U--50"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
