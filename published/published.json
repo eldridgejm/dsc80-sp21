@@ -350,7 +350,20 @@
                             "title": "Chapters 7.1 and 7.2 - Data Collection",
                             "url": "https://afraenkel.github.io/practical-data-science/07/introduction.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Collecting Data",
+                                "url": "https://youtu.be/6Kihi6rANlc"
+                            },
+                            {
+                                "title": "HTTP Requests and JSON",
+                                "url": "https://youtu.be/d93H6h-pw2U"
+                            },
+                            {
+                                "title": "APIs vs Scraping",
+                                "url": "https://youtu.be/w9nMK2S_lBU"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
