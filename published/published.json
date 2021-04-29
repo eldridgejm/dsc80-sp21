@@ -340,6 +340,23 @@
                             "path": "lectures/09-data_imputation/export.zip"
                         }
                     }
+                },
+                "10-collecting_data": {
+                    "metadata": {
+                        "number": 10,
+                        "date": "2021-04-29",
+                        "topic": "Collecting Data",
+                        "reading": {
+                            "title": "Chapters 7.1 and 7.2 - Data Collection",
+                            "url": "https://afraenkel.github.io/practical-data-science/07/introduction.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/10-collecting_data/export.zip"
+                        }
+                    }
                 }
             }
         },
