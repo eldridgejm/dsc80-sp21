@@ -602,6 +602,21 @@
                             "path": "projects/02/export.zip"
                         }
                     }
+                },
+                "03": {
+                    "metadata": {
+                        "number": 3,
+                        "checkpoint_released": "2021-04-29 23:59:00",
+                        "checkpoint_due": "2021-05-06 23:59:00",
+                        "released": "2021-05-06 23:59:00",
+                        "due": "2021-05-13 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "projects/03/export.zip"
+                        }
+                    }
                 }
             }
         },
