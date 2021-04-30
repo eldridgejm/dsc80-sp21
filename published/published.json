@@ -449,6 +449,19 @@
                             "path": "discussions/04/export.zip"
                         }
                     }
+                },
+                "05": {
+                    "metadata": {
+                        "number": 5,
+                        "datetime": "2021-04-30 13:00:00",
+                        "due": "2021-05-01 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/05/export.zip"
+                        }
+                    }
                 }
             }
         },
