@@ -462,6 +462,19 @@
                             "path": "discussions/05/export.zip"
                         }
                     }
+                },
+                "06": {
+                    "metadata": {
+                        "number": 6,
+                        "datetime": "2021-05-07 13:00:00",
+                        "due": "2021-05-08 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/06/export.zip"
+                        }
+                    }
                 }
             }
         },
