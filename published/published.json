@@ -370,6 +370,23 @@
                             "path": "lectures/10-collecting_data/export.zip"
                         }
                     }
+                },
+                "11-parsing_nested_data": {
+                    "metadata": {
+                        "number": 11,
+                        "date": "2021-05-04",
+                        "topic": "Parsing Nested Data",
+                        "reading": {
+                            "title": "Chapter 7.3 - Parsing HTML",
+                            "url": "https://afraenkel.github.io/practical-data-science/07/html.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/11-parsing_nested_data/export.zip"
+                        }
+                    }
                 }
             }
         },
