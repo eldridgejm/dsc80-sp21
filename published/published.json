@@ -380,7 +380,28 @@
                             "title": "Chapter 7.3 - Parsing HTML",
                             "url": "https://afraenkel.github.io/practical-data-science/07/html.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "HTML",
+                                "url": "https://youtu.be/JzPjRPeKICU"
+                            },
+                            {
+                                "title": "Parsing HTML",
+                                "url": "https://youtu.be/t9VLJiypjVc"
+                            },
+                            {
+                                "title": "Example: Scraping Quotes",
+                                "url": "https://youtu.be/LSBcvPDIhwA"
+                            },
+                            {
+                                "title": "Nested vs. Flat Data Structures",
+                                "url": "https://youtu.be/2FRbynzB4ms"
+                            },
+                            {
+                                "title": "API Requests",
+                                "url": "https://youtu.be/ghimteM-UuY"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
