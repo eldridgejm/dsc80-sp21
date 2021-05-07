@@ -513,6 +513,19 @@
                             "path": "discussions/06/export.zip"
                         }
                     }
+                },
+                "07": {
+                    "metadata": {
+                        "number": 7,
+                        "datetime": "2021-05-14 13:00:00",
+                        "due": "2021-05-15 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/07/export.zip"
+                        }
+                    }
                 }
             }
         },
