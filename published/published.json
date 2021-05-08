@@ -519,7 +519,7 @@
                         "number": 7,
                         "datetime": "2021-05-14 13:00:00",
                         "due": "2021-05-15 23:59:00",
-                        "recording": null
+                        "recording": "https://youtu.be/WcQsA3YBdX8"
                     },
                     "artifacts": {
                         "export.zip": {
