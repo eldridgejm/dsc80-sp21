@@ -408,6 +408,23 @@
                             "path": "lectures/11-parsing_nested_data/export.zip"
                         }
                     }
+                },
+                "12-text_data": {
+                    "metadata": {
+                        "number": 13,
+                        "date": "2021-05-06",
+                        "topic": "Text Data",
+                        "reading": {
+                            "title": "Chapter 8.1 - Text Processing",
+                            "url": "https://afraenkel.github.io/practical-data-science/08/introduction.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/12-text_data/export.zip"
+                        }
+                    }
                 }
             }
         },
