@@ -411,14 +411,31 @@
                 },
                 "12-text_data": {
                     "metadata": {
-                        "number": 13,
+                        "number": 12,
                         "date": "2021-05-06",
                         "topic": "Text Data",
                         "reading": {
                             "title": "Chapter 8.1 - Text Processing",
                             "url": "https://afraenkel.github.io/practical-data-science/08/introduction.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Canonicalization",
+                                "url": "https://youtu.be/jdJqyXBtghw"
+                            },
+                            {
+                                "title": "Intro to Regular Expressions",
+                                "url": "https://youtu.be/l9CtDQBXSfk"
+                            },
+                            {
+                                "title": "Regex Building Blocks",
+                                "url": "https://youtu.be/e52xX2F8viY"
+                            },
+                            {
+                                "title": "Extended Regex",
+                                "url": "https://youtu.be/rFdGcWo0nIU"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
