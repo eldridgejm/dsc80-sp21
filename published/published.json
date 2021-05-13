@@ -452,7 +452,20 @@
                             "title": "Chapter 8.2 - Information Extraction from Text",
                             "url": "https://afraenkel.github.io/practical-data-science/08/nlp.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Cleaning the SD City Salary Job Titles",
+                                "url": "https://youtu.be/kQqTAauvMlY"
+                            },
+                            {
+                                "title": "Bag of Words",
+                                "url": "https://youtu.be/6CGgDVGKVu4"
+                            },
+                            {
+                                "title": "Tf-Idf",
+                                "url": "https://youtu.be/kWgq1nIThPc"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
