@@ -442,6 +442,23 @@
                             "path": "lectures/12-text_data/export.zip"
                         }
                     }
+                },
+                "13-text_and_features": {
+                    "metadata": {
+                        "number": 13,
+                        "date": "2021-05-13",
+                        "topic": "Extracting Information from Text",
+                        "reading": {
+                            "title": "Chapter 8.2 - Information Extraction from Text",
+                            "url": "https://afraenkel.github.io/practical-data-science/08/nlp.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/13-text_and_features/export.zip"
+                        }
+                    }
                 }
             }
         },
