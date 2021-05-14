@@ -596,7 +596,7 @@
                         "number": 7,
                         "datetime": "2021-05-28 13:00:00",
                         "due": "2021-05-29 23:59:00",
-                        "recording": null
+                        "recording": "https://youtu.be/PHuqPr-u91U"
                     },
                     "artifacts": {
                         "export.zip": {
