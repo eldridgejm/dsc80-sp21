@@ -472,6 +472,23 @@
                             "path": "lectures/13-text_and_features/export.zip"
                         }
                     }
+                },
+                "14-features": {
+                    "metadata": {
+                        "number": 14,
+                        "date": "2021-05-18",
+                        "topic": "Features",
+                        "reading": {
+                            "title": "Chapter 9.1 - Feature Engineering",
+                            "url": "https://afraenkel.github.io/practical-data-science/09/features.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/14-features/export.zip"
+                        }
+                    }
                 }
             }
         },
