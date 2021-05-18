@@ -482,7 +482,28 @@
                             "title": "Chapter 9.1 - Feature Engineering",
                             "url": "https://afraenkel.github.io/practical-data-science/09/features.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Features",
+                                "url": "https://youtu.be/asgNHvTXJ9E"
+                            },
+                            {
+                                "title": "Feature Engineering",
+                                "url": "https://youtu.be/KPLC5ywHV20"
+                            },
+                            {
+                                "title": "Features and Models",
+                                "url": "https://youtu.be/J_qzUCV54DQ"
+                            },
+                            {
+                                "title": "Example: Predicting Tips",
+                                "url": "https://youtu.be/6vQAGoA0NaA"
+                            },
+                            {
+                                "title": "Example: Adding Features to Predict Tips",
+                                "url": "https://youtu.be/hUOWFWxwfLA"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
