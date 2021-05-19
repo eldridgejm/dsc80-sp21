@@ -758,6 +758,19 @@
                             "path": "labs/07/export.zip"
                         }
                     }
+                },
+                "08": {
+                    "metadata": {
+                        "number": 8,
+                        "released": "2021-05-18 23:59:00",
+                        "due": "2021-05-25 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/08/export.zip"
+                        }
+                    }
                 }
             }
         },
