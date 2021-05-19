@@ -510,6 +510,23 @@
                             "path": "lectures/14-features/export.zip"
                         }
                     }
+                },
+                "15-modeling_pipeline": {
+                    "metadata": {
+                        "number": 15,
+                        "date": "2021-05-20",
+                        "topic": "Model Pipelines",
+                        "reading": {
+                            "title": "Chapters 9.2 - Data Pipelines",
+                            "url": "https://afraenkel.github.io/practical-data-science/09/data-pipelines.html"
+                        },
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/15-modeling_pipeline/export.zip"
+                        }
+                    }
                 }
             }
         },
