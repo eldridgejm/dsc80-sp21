@@ -520,7 +520,16 @@
                             "title": "Chapters 9.2 - Data Pipelines",
                             "url": "https://afraenkel.github.io/practical-data-science/09/data-pipelines.html"
                         },
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "sklearn Transformers and Models",
+                                "url": "https://youtu.be/o7b5msJS8bY"
+                            },
+                            {
+                                "title": "Pipelines",
+                                "url": "https://youtu.be/1LQB4XeNp1o"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
