@@ -677,7 +677,7 @@
                         "number": 8,
                         "datetime": "2021-06-11 13:00:00",
                         "due": "2021-06-12 23:59:00",
-                        "recording": null
+                        "recording": "https://youtu.be/RkT64nM1Ric"
                     },
                     "artifacts": {
                         "export.zip": {
