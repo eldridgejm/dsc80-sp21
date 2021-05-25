@@ -547,7 +547,20 @@
                         "date": "2021-05-25",
                         "topic": "Model Validation",
                         "reading": null,
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Model Validation",
+                                "url": "https://youtu.be/aYw2JivFTqo"
+                            },
+                            {
+                                "title": "Example: Polynomial Regression",
+                                "url": "https://youtu.be/6jFYeQp28Ag"
+                            },
+                            {
+                                "title": "Example: Decision Trees",
+                                "url": "https://youtu.be/Rg_cQ_7f_6Y"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
