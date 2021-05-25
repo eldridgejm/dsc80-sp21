@@ -540,6 +540,20 @@
                             "path": "lectures/15-modeling_pipeline/export.zip"
                         }
                     }
+                },
+                "16-bias_and_variance": {
+                    "metadata": {
+                        "number": 16,
+                        "date": "2021-05-25",
+                        "topic": "Model Validation",
+                        "reading": null,
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/16-bias_and_variance/export.zip"
+                        }
+                    }
                 }
             }
         },
