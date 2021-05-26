@@ -841,6 +841,19 @@
                             "path": "labs/08/export.zip"
                         }
                     }
+                },
+                "09": {
+                    "metadata": {
+                        "number": 9,
+                        "released": "2021-05-25 23:59:00",
+                        "due": "2021-06-01 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/09/export.zip"
+                        }
+                    }
                 }
             }
         },
