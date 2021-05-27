@@ -574,7 +574,20 @@
                         "date": "2021-05-27",
                         "topic": "Examples",
                         "reading": null,
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Grid Search Cross-Validation",
+                                "url": "https://youtu.be/XhObFdOpzNw"
+                            },
+                            {
+                                "title": "Examples: Multicollinearity",
+                                "url": "https://youtu.be/Ji_ITRl8PfM"
+                            },
+                            {
+                                "title": "Example: Text Data",
+                                "url": "https://youtu.be/YXFZ5X6gvE4"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
