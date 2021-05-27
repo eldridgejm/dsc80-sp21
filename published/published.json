@@ -567,6 +567,20 @@
                             "path": "lectures/16-bias_and_variance/export.zip"
                         }
                     }
+                },
+                "17-examples": {
+                    "metadata": {
+                        "number": 17,
+                        "date": "2021-05-27",
+                        "topic": "Examples",
+                        "reading": null,
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/17-examples/export.zip"
+                        }
+                    }
                 }
             }
         },
