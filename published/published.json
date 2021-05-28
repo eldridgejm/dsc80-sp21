@@ -976,6 +976,20 @@
                             "path": "projects/04/export.zip"
                         }
                     }
+                },
+                "05": {
+                    "metadata": {
+                        "number": 5,
+                        "checkpoint_released": "2021-05-27 23:59:00",
+                        "released": "2021-05-27 23:59:00",
+                        "due": "2021-06-07 23:59:00",
+                        "topic": "Introduction"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "projects/05/export.zip"
+                        }
+                    }
                 }
             }
         },
