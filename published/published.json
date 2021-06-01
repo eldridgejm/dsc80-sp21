@@ -594,6 +594,20 @@
                             "path": "lectures/17-examples/export.zip"
                         }
                     }
+                },
+                "18-model_evaluation_and_fairness": {
+                    "metadata": {
+                        "number": 18,
+                        "date": "2021-06-01",
+                        "topic": "Model Evaluation and Fairness",
+                        "reading": null,
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "lectures/18-model_evaluation_and_fairness/export.zip"
+                        }
+                    }
                 }
             }
         },
