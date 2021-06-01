@@ -601,7 +601,28 @@
                         "date": "2021-06-01",
                         "topic": "Model Evaluation and Fairness",
                         "reading": null,
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Sensitivity, Specificity, Precision, Recall",
+                                "url": "https://youtu.be/BKjj3A-gXTU"
+                            },
+                            {
+                                "title": "Model Evaluation and Individuals",
+                                "url": "https://youtu.be/o_0zA_TXTkQ"
+                            },
+                            {
+                                "title": "Fairness and Bias in ML Models",
+                                "url": "https://youtu.be/BEooZWbZYYs"
+                            },
+                            {
+                                "title": "Parity Measures",
+                                "url": "https://youtu.be/P8-z29On_i4"
+                            },
+                            {
+                                "title": "Parity Example: Loans and Age",
+                                "url": "https://youtu.be/09PpYDyxBEQ"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "export.zip": {
