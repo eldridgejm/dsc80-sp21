@@ -786,6 +786,19 @@
                             "path": "discussions/09/export.zip"
                         }
                     }
+                },
+                "10": {
+                    "metadata": {
+                        "number": 10,
+                        "datetime": "2021-07-09 13:00:00",
+                        "due": "2021-07-10 23:59:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/10/export.zip"
+                        }
+                    }
                 }
             }
         },
